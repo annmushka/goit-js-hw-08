@@ -1,3 +1,4 @@
+// Add imports above this line
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
@@ -29,7 +30,7 @@ function onGalleryItemClick(event) {
   event.preventDefault();
 }
 
-let gallery = new SimpleLightbox('.gallery a', {
+let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
